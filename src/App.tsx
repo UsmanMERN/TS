@@ -14,7 +14,7 @@ import {
   DialogActions
 } from "@mui/material";
 import { styled } from "@mui/material/styles";
-import PersonAddIcon from "@mui/icons-material/PersonAdd";
+import PersonAddIcon from '@mui/icons-material/PersonAdd';
 import EditIcon from "@mui/icons-material/Edit";
 import DeleteIcon from "@mui/icons-material/Delete";
 
