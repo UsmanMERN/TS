@@ -117,7 +117,7 @@ const App: React.FC = () => {
               <CardContent>
                 <Typography variant="h5" gutterBottom>
                   <PersonAddIcon sx={{ mr: 1, verticalAlign: 'middle' }} />
-                  Student Registration
+                  Student Registration Application
                 </Typography>
                 <form onSubmit={handleSubmit}>
                   <Grid container spacing={2}>
@@ -175,7 +175,7 @@ const App: React.FC = () => {
           {/* Students List Column */}
           <Grid item xs={12} md={8}>
             <Typography variant="h4" gutterBottom color="white">
-              Registered Students
+              Registered Students Application
             </Typography>
             <Grid container spacing={3}>
               {students.map((student) => (
